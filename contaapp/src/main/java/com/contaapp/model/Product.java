@@ -29,6 +29,8 @@ public class Product {
     @Column(length =5)
     private String unitOfMeasure;
     private String purchaseDescription;
+    private int stock;
+
 
     @ManyToOne
     private Customer supplier;
